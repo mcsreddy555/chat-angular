@@ -1,0 +1,76 @@
+.body{
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 20px;
+    background-color: rgba(226, 51, 148, 0.13);
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+
+
+.body-msg::-webkit-scrollbar {
+    width: 10px;
+}
+      
+      /* Track */
+.body-msg::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+       
+      /* Handle */
+.body-msg::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+      
+      /* Handle on hover */
+.body-msg::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+
+.container {
+    border: 2px solid rgba(0, 0, 255, 0.055);
+    background-color: rgba(0, 183, 255, 0.055);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.darker {
+    border-color: #cccccc;
+    background-color: #dddddd;
+}
+
+.container::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container img {
+    float: left;
+    max-width: 60px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+    max-width: 60px;
+  }
+
+.time-right {
+    float: right;
+    color: rgb(20, 236, 20);
+  }
+  
+  .time-left {
+    float: left;
+    color: rgb(34, 165, 226);
+  }
+.img2-msg{
+    float:right;
+}
